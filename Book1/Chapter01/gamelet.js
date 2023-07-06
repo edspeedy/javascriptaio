@@ -16,10 +16,10 @@ function handleKeyPress(e) {
   refresh();
 
   if (e.code === 'ArrowUp') {
-    position2 = position2 - 20;
+    position2 = position2 - 10;
   }
   if (e.code === 'ArrowDown') {
-    position2 = position2 + 20;
+    position2 = position2 + 10;
   }
   if (position2 < 0) {
     position2 = 0;
